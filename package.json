@@ -1,10 +1,10 @@
 {
   "name": "react-pwa-provider",
-  "version": "1.0.02",
+  "version": "1.0.03",
   "description": "Creates an easy way of interacting with service-worker funtionality within a React based progressive web application",
   "main": "lib/index.js",
   "scripts": {
-    "build": "babel pwa-provider --out-dir lib"
+    "build": "babel pwa-provider --out-dir dist"
   },
   "keywords": [
     "react",

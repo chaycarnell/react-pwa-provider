@@ -1,1 +1,1 @@
-export { usePWA, PwaProvider } from './lib';
+export { usePWA, PwaProvider } from './dist';
