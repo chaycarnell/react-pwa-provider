@@ -1,6 +1,6 @@
 {
   "name": "react-pwa-provider",
-  "version": "1.0.03",
+  "version": "1.0.04",
   "description": "Creates an easy way of interacting with service-worker funtionality within a React based progressive web application",
   "main": "dist/index.js",
   "scripts": {
