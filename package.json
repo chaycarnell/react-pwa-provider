@@ -4,7 +4,7 @@
   "description": "Creates an easy way of interacting with service-worker funtionality within a React based progressive web application",
   "main": "dist/index.js",
   "scripts": {
-    "build": "babel pwa-provider --out-dir dist"
+    "build": "babel src --out-dir dist"
   },
   "types": "types.d.ts",
   "keywords": [
