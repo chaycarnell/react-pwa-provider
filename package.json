@@ -6,6 +6,7 @@
   "scripts": {
     "build": "babel pwa-provider --out-dir dist"
   },
+  "types": "types.d.ts",
   "keywords": [
     "react",
     "provider",
