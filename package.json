@@ -4,6 +4,9 @@
   "description": "Creates an easy way of interacting with service-worker funtionality within a React based progressive web application",
   "main": "index.ts",
   "typings": "global.d.ts",
+  "scripts": {
+    "build": "babel pwa-provider --out-dir lib"
+  },
   "keywords": [
     "react",
     "provider",
@@ -16,12 +19,19 @@
     "notification"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/chaycarnell/react-pwa-provider"
+    "type": "git",
+    "url": "https://github.com/chaycarnell/react-pwa-provider"
   },
   "author": "Chay Carnell - chaycarnell@gmail.com",
   "license": "ISC",
   "dependencies": {
     "react": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/plugin-transform-runtime": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4"
   }
 }

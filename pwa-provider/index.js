@@ -226,8 +226,7 @@ export const PwaProvider = ({ children }) => {
     });
   };
 
-  return (
-    <PwaContext.Provider
+  return <PwaContext.Provider
       value={{
         swSupported,
         pushSupported,
@@ -246,5 +245,4 @@ export const PwaProvider = ({ children }) => {
     >
       {children}
     </PwaContext.Provider>
-  );
 };
